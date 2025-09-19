@@ -1,0 +1,142 @@
+{
+  "Health Check": {
+    "success": true,
+    "message": "API is responding correctly",
+    "timestamp": "2025-09-19T23:04:12.300815",
+    "response_data": {
+      "message": "User Trust & Experience Dashboard API"
+    }
+  },
+  "Data Generation": {
+    "success": true,
+    "message": "Generated 500 users, 100 sellers, 2000 orders, 1200 reviews, 88 disputes",
+    "timestamp": "2025-09-19T23:04:13.403584",
+    "response_data": {
+      "message": "Sample data generated successfully",
+      "stats": {
+        "users": 500,
+        "sellers": 100,
+        "orders": 2000,
+        "reviews": 1200,
+        "disputes": 88
+      }
+    }
+  },
+  "Trust Metrics": {
+    "success": true,
+    "message": "Trust Index: 87.88, Dispute Rate: 4.4%, User Satisfaction: 75.37%",
+    "timestamp": "2025-09-19T23:04:13.941802",
+    "response_data": {
+      "trust_index": 87.88,
+      "dispute_rate": 4.4,
+      "refund_ratio": 7.25,
+      "policy_breach_rate": 3.08,
+      "repeat_purchase_uplift": 92.61,
+      "user_satisfaction_avg": 75.37,
+      "fraud_detection_rate": 2.05,
+      "seller_performance_avg": 86.86
+    }
+  },
+  "Dashboard Stats": {
+    "success": true,
+    "message": "Total Orders: 2000, Recent Orders (30d): 156, Recent Disputes (30d): 20",
+    "timestamp": "2025-09-19T23:04:14.485230",
+    "response_data": {
+      "trust_metrics": {
+        "trust_index": 87.88,
+        "dispute_rate": 4.4,
+        "refund_ratio": 7.25,
+        "policy_breach_rate": 3.08,
+        "repeat_purchase_uplift": 92.61,
+        "user_satisfaction_avg": 75.37,
+        "fraud_detection_rate": 2.05,
+        "seller_performance_avg": 86.86
+      },
+      "totals": {
+        "users": 500,
+        "sellers": 100,
+        "orders": 2000,
+        "reviews": 1200,
+        "disputes": 88
+      },
+      "recent_activity": {
+        "orders_30d": 156,
+        "disputes_30d": 20
+      }
+    }
+  },
+  "Sellers Performance": {
+    "success": false,
+    "message": "HTTP 500: Internal Server Error",
+    "timestamp": "2025-09-19T23:04:14.993945",
+    "response_data": null
+  },
+  "Category Analysis": {
+    "success": true,
+    "message": "Analyzed 8 categories, Top category: Home & Garden (Trust: 89.14)",
+    "timestamp": "2025-09-19T23:04:15.503957",
+    "response_data": {
+      "category_count": 8,
+      "top_category": {
+        "_id": "Home & Garden",
+        "avg_dispute_rate": 0.10463636363636364,
+        "avg_fulfillment_rate": 0.902909090909091,
+        "avg_trust_index": 89.13818181818182,
+        "total_sellers": 11
+      }
+    }
+  },
+  "Regional Analysis": {
+    "success": true,
+    "message": "Analyzed 6 regions, Top region: Africa (Satisfaction: 3.11)",
+    "timestamp": "2025-09-19T23:04:16.014641",
+    "response_data": {
+      "region_count": 6,
+      "top_region": {
+        "_id": "Africa",
+        "avg_satisfaction": 3.1149655742397235,
+        "total_users": 86,
+        "avg_orders": 25.3953488372093
+      }
+    }
+  },
+  "Dispute Trends": {
+    "success": true,
+    "message": "Retrieved 38 trend data points, Sample: Refund Request (2024-11): 1 disputes",
+    "timestamp": "2025-09-19T23:04:16.524766",
+    "response_data": {
+      "trend_count": 38,
+      "sample_trend": {
+        "_id": {
+          "year": 2024,
+          "month": 11,
+          "type": "Refund Request"
+        },
+        "count": 1,
+        "total_amount": 494.33
+      }
+    }
+  },
+  "Policy Simulation": {
+    "success": true,
+    "message": "All 3 scenarios tested successfully. Compliance rates: [5.0, 30.0, 71.0]%",
+    "timestamp": "2025-09-19T23:04:17.092890",
+    "response_data": [
+      {
+        "scenario": "Strict Policy",
+        "compliance_rate": 5.0,
+        "affected_sellers": 95
+      },
+      {
+        "scenario": "Moderate Policy",
+        "compliance_rate": 30.0,
+        "affected_sellers": 70
+      },
+      {
+        "scenario": "Lenient Policy",
+        "compliance_rate": 71.0,
+        "affected_sellers": 29
+      }
+    ]
+  }
+}
