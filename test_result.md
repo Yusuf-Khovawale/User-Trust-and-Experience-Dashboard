@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Test the User Trust & Experience Dashboard backend API thoroughly with comprehensive validation of all endpoints, data generation, trust metrics calculation, analytics, and policy simulation features."
+user_problem_statement: "Test the User Trust & Experience Dashboard frontend comprehensively including dashboard layout, data generation, KPI cards, interactive charts, seller performance table, policy simulation, data flow, responsive design, and error handling."
 
 backend:
   - task: "API Health Check"
