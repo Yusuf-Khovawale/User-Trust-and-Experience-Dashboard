@@ -443,7 +443,7 @@ async def get_dashboard_stats():
 @api_router.get("/sellers-performance")
 async def get_sellers_performance(limit: int = Query(50, le=200)):
     """Get seller performance data"""
-    sellers = await db.sellers.find().sort("trust_index", -1).limit(limit).to_list(None)
+    sellers = await db.sellers.find({}, {"_id": 0}).sort("trust_index", -1).limit(limit).to_list(None)
     return {"sellers": sellers}
 
 @api_router.get("/category-analysis")
