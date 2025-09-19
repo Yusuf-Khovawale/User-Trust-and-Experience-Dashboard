@@ -246,15 +246,18 @@ frontend:
 
   - task: "Data Generator Section"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/frontend/src/App.js"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
         - working: "NA"
           agent: "testing"
           comment: "Need to test data generation form with input fields (Users, Sellers, Orders), Generate Sample Data button functionality, loading state and success feedback."
+        - working: true
+          agent: "testing"
+          comment: "✅ PASSED: Data Generator section visible with 3 input fields (Users, Sellers, Orders) with default values (1000, 200, 5000). Generate Sample Data button works correctly. Successfully tested data generation with modified parameters (800, 150, 3000) and confirmed KPI values updated from Trust Index 87.4/100 to 87.5/100 and Dispute Rate from 5.0% to 4.9%. Button shows loading state during generation."
 
   - task: "Executive KPI Cards"
     implemented: true
