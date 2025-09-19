@@ -276,15 +276,18 @@ frontend:
 
   - task: "Interactive Charts"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/frontend/src/App.js"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
         - working: "NA"
           agent: "testing"
           comment: "Need to test Category Performance Analysis (Bar Chart) and Regional User Satisfaction (Area Chart) with proper data rendering, tooltips, and interactions."
+        - working: true
+          agent: "testing"
+          comment: "✅ PASSED: Both charts render correctly. Category Performance Analysis shows bar chart with Trust Index and Fulfillment Rate data across 8 categories (Sports, Fashion, Home & Garden, etc.). Regional User Satisfaction displays area chart with satisfaction scores across 6 regions (Africa, North America, South America, Oceania, Europe, Asia). Charts have proper legends with 2 legend items each. Chart tooltips are present but multiple tooltip wrappers detected (minor UI issue but functional)."
 
   - task: "Seller Performance Table"
     implemented: true
