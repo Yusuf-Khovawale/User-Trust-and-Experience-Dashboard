@@ -291,15 +291,18 @@ frontend:
 
   - task: "Seller Performance Table"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/frontend/src/App.js"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
         - working: "NA"
           agent: "testing"
           comment: "Need to test seller data table with proper columns, trust index badges with colors, formatting, and responsive layout."
+        - working: true
+          agent: "testing"
+          comment: "✅ PASSED: Seller Performance Table displays correctly with 10 seller rows and 5 table headers (Seller, Trust Index, Fulfillment Rate, Complaint Ratio, Category). Trust index badges have proper color coding (green/yellow/red based on values). First seller example: Miller-Taylor with Trust Index 97.9, Fulfillment Rate 95.8%. Table is responsive and well-formatted."
 
   - task: "Policy Simulation Section"
     implemented: true
