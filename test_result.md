@@ -345,7 +345,13 @@ metadata:
 
 test_plan:
   current_focus:
-    - "All backend API endpoints tested and validated"
+    - "Dashboard Overview & Layout"
+    - "Data Generator Section"
+    - "Executive KPI Cards"
+    - "Interactive Charts"
+    - "Seller Performance Table"
+    - "Policy Simulation Section"
+    - "Data Flow Testing"
   stuck_tasks: []
   test_all: true
   test_priority: "high_first"
