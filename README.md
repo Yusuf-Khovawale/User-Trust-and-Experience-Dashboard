@@ -1,13 +1,10 @@
 # User Trust and Experience Dashboard
-
 **A robust, full-stack dashboard for monitoring user trust and experience metrics in web applications.**
 
 ## 🚀 Overview
-
 This project builds an interactive dashboard that measures, visualizes, and tracks indicators of user trust and experience across digital platforms. It helps product teams, designers, and managers make data-driven decisions to improve usability, transparency, and satisfaction.
 
 ### Key Features
-
 - **Frontend**: Modern UI built with JavaScript, HTML, and CSS for interactive visualizations
 - **Backend**: Python API and logic for data aggregation, predictive analytics, and secure data handling
 - **Metrics Tracked**: 
@@ -18,7 +15,6 @@ This project builds an interactive dashboard that measures, visualizes, and trac
 - **Automated Testing**: Includes full test suite for reliability and maintainability
 
 ## 📊 Tech Stack
-
 - **Frontend**: JavaScript, HTML, CSS
 - **Backend**: Python (REST API)
 - **Testing**: pytest (Python), Jest/Mocha (JS)
@@ -26,13 +22,11 @@ This project builds an interactive dashboard that measures, visualizes, and trac
 - **Other Tools**: Git, GitHub Actions for CI/CD
 
 ## 🛠️ How to Run
-
 1. Clone this repo:
    ```bash
    git clone https://github.com/Yusuf-Khovawale/User-Trust-and-Experience-Dashboard.git
    cd User-Trust-and-Experience-Dashboard
    ```
-
 2. Install dependencies:
    - Backend:  
      ```bash
@@ -42,7 +36,6 @@ This project builds an interactive dashboard that measures, visualizes, and trac
      ```
    - Frontend:  
      Open `frontend/index.html` in your browser, or use local web server for advanced features.
-
 3. Run tests:
    ```bash
    pytest tests/
@@ -52,18 +45,11 @@ This project builds an interactive dashboard that measures, visualizes, and trac
 
 ## 📈 Example Screenshots
 
-*Add images of your dashboard UI, metrics charts, or test results here to showcase the project.*
+### Dashboard UI
+![Dashboard UI](./images/Screenshot%202025-08-22%20002532.png)
 
-## 🧐 Why User Trust Matters
+### Trust Metric Chart
+![Trust Metric Chart](./images/Screenshot%202025-08-22%20002552.png)
 
-User trust translates into loyalty, engagement, and long-term platform success. This dashboard gives actionable data to systematically address trust gaps.
-
-## 🤝 Contributing
-
-Open to improvements, new metrics, or integrations. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## 👤 About Me
-
-*Mohammed Yusuf Khovawale – Aspiring data analyst passionate about product analytics and user experience. Connect on [LinkedIn](https://www.linkedin.com/in/yusuf-khovawale/)*
-
----
+### Analytics Overview
+![Analytics Overview](./images/Screenshot%202025-08-22%20002621.png)
