@@ -34,7 +34,7 @@ This project builds an interactive dashboard that measures, visualizes, and trac
      pip install -r requirements.txt
      python backend_test.py
      ```
-   - Frontend:  
+   - Frontend:
      Open `frontend/index.html` in your browser, or use local web server for advanced features.
 3. Run tests:
    ```bash
@@ -44,7 +44,6 @@ This project builds an interactive dashboard that measures, visualizes, and trac
    - Fork, star, and submit pull requests for ideas or improvements.
 
 ## 📈 Example Screenshots
-
 ### Dashboard UI
 ![Dashboard UI](./images/Screenshot%202025-08-22%20002532.png)
 
@@ -53,3 +52,12 @@ This project builds an interactive dashboard that measures, visualizes, and trac
 
 ### Analytics Overview
 ![Analytics Overview](./images/Screenshot%202025-08-22%20002621.png)
+
+## 🧐 Why User Trust Matters
+User trust translates into loyalty, engagement, and long-term platform success. This dashboard gives actionable data to systematically address trust gaps.
+
+## 🤝 Contributing
+Open to improvements, new metrics, or integrations. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## 👤 About Me
+Mohammed Yusuf Khovawale – Aspiring data analyst passionate about product analytics and user experience. Connect on [LinkedIn](https://www.linkedin.com/in/yusuf-khovawale/)
